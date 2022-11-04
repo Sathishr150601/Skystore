@@ -1,0 +1,300 @@
+.redeem-wrapper {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #030f1f;
+}
+
+.redeem-section {
+  justify-content: center;
+  max-width: unset;
+}
+.RedeemVoucher h1 {
+  text-indent: 0 !important;
+}
+.RedeemVoucher h1:before {
+  content: "" !important;
+}
+.redeem-content {
+  width: 100%;
+}
+#Collapses {
+  position: relative;
+  height: 300pc;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.img-wrapper {
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.img-wrapper img {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.voucherbg {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.mainvoucher {
+  position: relative;
+}
+
+.voucher-wrapper {
+  top: 10pc;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.redeem-title {
+  font-family: "Font Text";
+  font-size: 2.9rem;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+@media screen and (max-width: 1024px) {
+  .redeem-wrapper {
+    position: relative;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .img-wrapper img {
+    height: 120%;
+  }
+  .redeem-wrapper {
+    position: relative;
+    height: 40%;
+  }
+}
+@media (min-width: 1900px) {
+  .img-wrapper img {
+    height: 90vh;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1500px) {
+  .img-wrapper img {
+    height: 100%;
+  }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .img-wrapper img {
+    height: 100%;
+  }
+}
+
+.redeem-text {
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-bottom: 6rem;
+}
+
+.input-wrapper {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.redeem-input:placeholder-shown {
+  text-transform: none;
+  letter-spacing: 0;
+  font-family: "Font Text";
+  height: 45px;
+}
+@media (max-width: 450px) {
+  .redeem-input:placeholder-shown {
+    width: 100% !important;
+    font-size: 1rem;
+    margin: 0 !important;
+  }
+  .input-wrapper .redeem-input {
+    width: 100% !important;
+    height: 45px;
+  }
+}
+.redeem-input::placeholder {
+  position: relative;
+  left: 10px;
+}
+.redeem-input {
+  border: 3px solid transparent;
+  border-radius: 3px;
+  font-family: "Courier New";
+  font-size: 18px;
+  height: 45px;
+  width: 300px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-left: auto;
+}
+
+.redeembutton {
+  width: 135px;
+  height: 45px;
+  margin-left: 25px;
+}
+
+.vouchertext-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  margin-top: -20px;
+  justify-content: center;
+  max-width: 680px;
+  margin: auto;
+}
+
+.voucher-item {
+  max-width: 680px;
+}
+
+.voucher-text {
+  font-family: "Font Text";
+  max-width: 680px;
+  font-size: 21px;
+  margin: 0 auto 6px;
+}
+
+.voucher-para p {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.faq-link {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.faq-link a:hover {
+  color: #f4ce24;
+}
+
+.require-link {
+  color: #a3b2c4;
+  font-size: 16px;
+}
+
+.require-link a:hover {
+  color: #f4ce24;
+}
+
+.termbtn-wrapper {
+  width: 100%;
+  max-width: 1090px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.termsbutton {
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  font-size: 1rem;
+  background-color: rgba(120, 182, 250, 0.05) !important;
+  border: transparent;
+  border-radius: 3px 0px;
+  margin-bottom: 105px;
+}
+
+.arrow-wrapper {
+  display: flex;
+  margin: auto;
+}
+
+.arrow-wrapper p {
+  margin-bottom: 0px;
+}
+
+.terms-arrow {
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+.collapse-text {
+  background-color: rgba(120, 182, 250, 0.05);
+  border-radius: 0px 3px;
+  padding-left: 12px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.termtext {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.third-tc {
+  padding-bottom: 20px;
+}
+
+.collapse-text ol {
+  padding-right: 20px;
+}
+
+.collapse-text li {
+  color: #a3b2c4;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+.collapse-text li:last-child {
+  padding-bottom: 15px;
+}
+
+.cond-link {
+  color: #78b6fa;
+}
+
+.cond-link:hover {
+  color: #f4ce24;
+}
+
+@media (max-width: 600px) {
+  .input-wrapper {
+    flex-direction: column;
+  }
+
+  .redeem-input {
+    width: 100%;
+  }
+
+  .redeembutton {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .redeem-title {
+    font-family: "Font Text";
+    font-size: 1.875rem;
+  }
+
+  .redeem-text {
+    font-size: 14px;
+  }
+
+  .redeembutton {
+    margin-left: 0px;
+  }
+}

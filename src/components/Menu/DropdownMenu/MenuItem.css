@@ -1,0 +1,537 @@
+/* Moviecards.css */
+
+html {
+  scroll-behavior: auto !important;
+}
+
+/* Movies */
+
+.BondCollection h1 {
+  text-indent: -9999px;
+}
+.BondCollection h1:before {
+  text-indent: 0;
+  content: "Bond Collection";
+  float: left;
+  margin-top: 1rem;
+}
+
+.MovieBoxSets h1 {
+  text-indent: -9999px;
+}
+.MovieBoxSets h1:before {
+  text-indent: 0;
+  content: "Movie Box Sets";
+  float: left;
+  margin-top: 1rem;
+}
+
+.NewToBuy h1 {
+  text-indent: -9999px;
+}
+.NewToBuy h1:before {
+  text-indent: 0;
+  content: "New To Buy";
+  float: left;
+  margin-top: 1rem;
+}
+
+.NewToRent h1 {
+  text-indent: -9999px;
+}
+.NewToRent h1:before {
+  text-indent: 0;
+  content: "New to Rent";
+  float: left;
+  margin-top: 1rem;
+}
+
+.PreOrder h1 {
+  text-indent: -9999px;
+}
+.PreOrder h1:before {
+  text-indent: 0;
+  content: "Pre Order";
+  float: left;
+  margin-top: 1rem;
+}
+
+.OfficialFilmCharts h1 {
+  text-indent: -9999px;
+}
+.OfficialFilmCharts h1:before {
+  text-indent: 0;
+  content: "Official Film Charts";
+  float: left;
+  margin-top: 1rem;
+}
+
+.Browse h1 {
+  text-indent: -9999px;
+}
+.Browse h1:before {
+  text-indent: 0;
+  content: "Browse";
+  float: left;
+  margin-top: 1rem;
+}
+
+.AtoZ h1 {
+  text-indent: -9999px;
+}
+.AtoZ h1:before {
+  text-indent: 0;
+  content: "A to Z";
+  float: left;
+  margin-top: 1rem;
+}
+
+/* Spring Sale */
+
+.SkyStorePremiere h1 {
+  text-indent: -9999px;
+}
+.SkyStorePremiere h1:before {
+  text-indent: 0;
+  content: "Sky Store Premiere";
+  float: left;
+  margin-top: 1rem;
+}
+.StorePicks h1 {
+  text-indent: -9999px;
+}
+.StorePicks h1:before {
+  text-indent: 0;
+  content: "Store Picks";
+  float: left;
+  margin-top: 1rem;
+}
+.TVBoxSets h1 {
+  text-indent: -9999px;
+}
+.TVBoxSets h1:before {
+  text-indent: 0;
+  content: "TV Box Sets";
+  float: left;
+  margin-top: 1rem;
+}
+.UnderE3 h1 {
+  text-indent: -9999px;
+}
+.UnderE3 h1:before {
+  text-indent: 0;
+  content: "Under £3";
+  float: left;
+  margin-top: 1rem;
+}
+.UnderE4 h1 {
+  text-indent: -9999px;
+}
+.UnderE4 h1:before {
+  text-indent: 0;
+  content: "Under £4";
+  float: left;
+  margin-top: 1rem;
+}
+.UnderE5 h1 {
+  text-indent: -9999px;
+}
+.UnderE5 h1:before {
+  text-indent: 0;
+  content: "Under £5";
+  float: left;
+  margin-top: 1rem;
+}
+.All h1 {
+  text-indent: -9999px;
+}
+.All h1:before {
+  text-indent: 0;
+  content: "All";
+  float: left;
+  margin-top: 1rem;
+}
+.Comedy h1 {
+  text-indent: -9999px;
+}
+.Comedy h1:before {
+  text-indent: 0;
+  content: "Comedy";
+  float: left;
+  margin-top: 1rem;
+}
+.Drama h1 {
+  text-indent: -9999px;
+}
+.Drama h1:before {
+  text-indent: 0;
+  content: "Drama";
+  float: left;
+  margin-top: 1rem;
+}
+.Kids h1 {
+  text-indent: -9999px;
+}
+.Kids h1:before {
+  text-indent: 0;
+  content: "Kids";
+  float: left;
+  margin-top: 1rem;
+}
+.MostPopular h1 {
+  text-indent: -9999px;
+}
+.MostPopular h1:before {
+  text-indent: 0;
+  content: "Most Popular";
+  float: left;
+  margin-top: 1rem;
+}
+.NewToStore h1 {
+  text-indent: -9999px;
+}
+.NewToStore h1:before {
+  text-indent: 0;
+  content: "New To Store";
+  float: left;
+  margin-top: 1rem;
+}
+.SkyVIPGift h1 {
+  text-indent: -9999px;
+}
+.SkyVIPGift h1:before {
+  text-indent: 0;
+  content: "Sky VIP Gift";
+  float: left;
+  margin-top: 1rem;
+}
+.RedeemVoucher h1 {
+  text-indent: -9999px;
+}
+.RedeemVoucher h1:before {
+  text-indent: 0;
+  content: "Redeem Voucher";
+  float: left;
+  margin-top: 1rem;
+}
+
+.new {
+  position: relative;
+  background-color: #030f1f;
+}
+h1 {
+  font-family: "Sky Text";
+  font-size: 1.875rem;
+  color: white;
+  justify-content: flex-start;
+  margin-bottom: 5% !important;
+}
+
+.new h1:before {
+  text-indent: 0;
+  float: left;
+  color: white;
+}
+.padding {
+  padding-top: 5pc;
+}
+.new h1 {
+  color: white;
+}
+.Pre {
+  position: relative;
+  top: 8.6rem;
+  background-color: #030f1f;
+}
+
+.Pre h1:before {
+  text-indent: 0;
+  float: left;
+  color: white;
+  font-family: "Font Text";
+}
+
+@media (max-width: 800px) {
+  .heading {
+    display: none;
+  }
+  .row {
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 450px) {
+  .button-wrapper a {
+    bottom: 0 !important;
+    margin-top: 3rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: center;
+    float: none !important;
+  }
+}
+.button-wrapper a {
+  color: #0061a6 !important;
+}
+
+/* Cards.css */
+
+.Cards {
+  background-color: #030f1f;
+}
+.row {
+  justify-content: center !important;
+}
+@media screen and (max-width: 376px) {
+  .button-wrapper {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+  }
+  .button-wrapper a {
+    cursor: pointer;
+    position: relative;
+    color: #78b6fa !important;
+    display: block;
+    float: right;
+    margin-right: 10%;
+    font-size: 1rem;
+    bottom: 2pc;
+  }
+  .button-wrapper a svg {
+    border-style: groove;
+    border-color: #78b6fa !important;
+    box-sizing: border-box;
+    border-radius: 60%;
+    border: 1.3px solid;
+  }
+  .button-wrapper a h {
+    margin-left: 0.5rem;
+  }
+}
+@media (max-width: 520px) {
+  .button-wrapper a {
+    position: relative;
+    bottom: 30px;
+    top: -1rem !important;
+    margin-left: 39vmin;
+  }
+}
+.footer-wrapper {
+  margin-top: 24px;
+}
+.cards {
+  border: none;
+  background-color: inherit;
+  z-index: 50;
+  margin-top: 255px;
+}
+.Cards h1 {
+  font-family: "Font Text";
+  font-size: 1.875rem;
+  color: white;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-left: 05.6rem;
+}
+.card section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 71.25rem;
+}
+.card-wrapper {
+  width: 16.6666667%;
+  padding-bottom: 1rem;
+}
+.card-wrapper p {
+  overflow: hidden;
+}
+.movieTitle {
+  margin-top: 10px;
+  max-height: 44px;
+  color: white;
+}
+.cardimg {
+  width: 100%;
+  height: 100%;
+  max-height: 228px;
+  min-height: 158px;
+}
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .cardimg {
+    width: 100%;
+    height: 100%;
+    max-height: 158px;
+  }
+  .card-wrapper p {
+    font-size: 15px;
+  }
+  section {
+    width: 100%;
+    max-width: 900px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  .card-wrapper {
+    width: 100%;
+    max-width: 125px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .cardimg {
+    width: 100%;
+    height: 100%;
+    max-height: 158px;
+  }
+  .card-wrapper p {
+    font-size: 13px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .card-wrapper {
+    width: 100%;
+    max-width: 160px;
+    min-width: 130px;
+  }
+  .cardimg {
+    width: 100%;
+    max-width: 177px;
+    height: 100%;
+    max-height: 252px;
+  }
+  .card-wrapper p {
+    font-size: 15px;
+  }
+  .container {
+    width: 100%;
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .card-wrapper {
+    width: 100%;
+    max-width: 140px;
+    min-width: 130px;
+  }
+  .Cards h1 {
+    display: none;
+  }
+}
+@media (min-width: 475px) and (max-width: 600px) {
+  .card-wrapper {
+    width: 100%;
+    max-width: 150px;
+    min-width: 110px;
+  }
+  .Cards h1 {
+    display: none;
+  }
+  .cardimg {
+    width: 100%;
+    max-width: 177px;
+    height: 100%;
+    max-height: 252px;
+  }
+
+  .card-wrapper p {
+    font-size: 15px;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 775px) {
+  .Cards h1 {
+    display: none;
+  }
+}
+@media (max-width: 475px) {
+  .card-wrapper {
+    width: 16.667%;
+    max-width: 120px;
+    min-width: 115px;
+    padding-left: 1.31579%;
+    padding-right: 1.31579%;
+  }
+  .cardimg {
+    width: 100%;
+    max-width: 177px;
+    height: 100%;
+    max-height: 252px;
+  }
+  .card-wrapper p {
+    font-size: 15px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+.btn {
+  background-color: #2873c5;
+  border-radius: 3px;
+  align-items: center;
+  display: block;
+  line-height: 1.22222;
+  min-height: 45px;
+  padding: 0.719rem;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+  position: relative;
+  color: #fff;
+  font-size: 1.125rem;
+  width: 11.5625rem;
+  margin: auto auto 0 auto;
+}
+.btn:hover {
+  color: #fff;
+  background-color: rgba(40, 115, 197, 0.8);
+  outline: 0;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 71.25rem !important;
+  }
+}
+@media (max-width: 1400px) {
+  .button-wrapper {
+    text-align: right;
+    padding-bottom: 2%;
+  }
+}
+@media (max-width: 1400px) {
+  .button-wrapper a {
+    position: relative;
+    top: -2rem;
+  }
+}
+@media (min-width: 1400px) {
+  .button-wrapper a {
+    position: relative;
+    top: -2rem;
+  }
+}
+@media (min-width: 1400px) {
+  .button-wrapper {
+    text-align: right;
+    padding-bottom: 2%;
+  }
+}

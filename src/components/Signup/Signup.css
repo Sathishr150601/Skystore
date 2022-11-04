@@ -1,0 +1,356 @@
+#pageContentWrapper {
+  position: relative;
+  max-width: none;
+  width: 100%;
+  margin: 0 auto 0.625em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 5.4375rem;
+  width: 100%;
+}
+#header {
+  background: url(https://skyidassets-a.akamaihd.net/static/x9RwQdLbWyBRbpn5XSZQszlREJBy76mgSZojlBRf2HI.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0em;
+}
+#header {
+  text-align: right;
+  min-height: 2.9375rem;
+  border-bottom: 1px solid #cccccc;
+}
+#logo1 {
+  height: 10vh;
+  width: 7.875rem;
+  margin: 0px auto;
+  background: url(https://skyidassets-a.akamaihd.net/static/DMjvbOtVqLSKd5fS83LBZ9ARBL2GeutCERBnXiU6fYy.png);
+  float: none;
+  background-size: 7.875rem 10vh;
+  background-repeat: no-repeat;
+}
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+.progressBarContainer .panelHeader {
+  margin-top: 0.625rem;
+}
+.panelHeader {
+  margin: 0.625em 0 1.25em 0;
+}
+.page-header-two {
+  font: 1.3em "SkyStoreRegular", sans-serif;
+  margin-top: 3.125rem;
+  color: #053477;
+}
+h1 {
+  margin: 0;
+}
+#nav {
+  text-align: right;
+  color: #666666;
+  font-size: 11px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  text-align: left;
+  display: block;
+}
+#nav ul {
+  display: inline;
+  padding-left: 0;
+  list-style: none;
+  list-style-image: none;
+}
+ul {
+  padding: 0 0 0 40px;
+  margin: 1em 0;
+}
+#nav li:first-child {
+  border-left: 0 solid #cccccc;
+}
+#nav li {
+  display: inline;
+  border-left: 1px solid #cccccc;
+}
+li {
+  color: #666666;
+}
+#nav ul li:first-child a {
+  margin-right: 5px;
+}
+#nav ul li a {
+  margin: 0 0 0 5px;
+}
+#nav a {
+  font-size: 11px;
+}
+a,
+a:link,
+a:hover {
+  color: #0061a6;
+  font-size: inherit;
+  text-decoration: none;
+}
+.subPanel {
+  position: relative;
+}
+form {
+  margin: 0;
+}
+.panel fieldset {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+  border: 0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+  display: none;
+}
+.panel .formFieldsWrapper > div,
+.instructionRow {
+  position: relative;
+}
+.formFieldsWrapper > div {
+  margin-bottom: 0.625em;
+}
+label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #666666;
+  margin-bottom: 1.6875rem;
+}
+select {
+  background-clip: padding-box;
+  border: 1px solid #9b9393;
+  margin: 0;
+  vertical-align: baseline;
+}
+#titleSelect {
+  position: relative;
+  border-radius: 2px;
+}
+select #title {
+  border-radius: 1px;
+}
+.pb {
+  padding-bottom: 1px;
+}
+#titleSelect select {
+  font-family: SkyStoreRegular;
+  padding: 0.3125rem 0.625rem;
+  outline: none;
+  height: 1.6875rem;
+  font-size: 0.75rem;
+  width: 13.75rem;
+}
+#titleSelect .defaultBubble {
+  top: -2px;
+}
+input #email,
+input #confirmPassword,
+input #password,
+input #lastname,
+input #firstname,
+input #captcha,
+input #confirmEmail {
+  width: 40vw;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  padding: 1px 0px 1px 2px;
+  height: 1.4375rem;
+  font-size: 0.75rem;
+  width: 13.75rem !important;
+}
+input {
+  margin: 0;
+  vertical-align: center;
+  line-height: normal;
+}
+#captchaContainer {
+  width: 13.75rem;
+  display: inline-block;
+  clear: both;
+}
+#captchaImageWrapper {
+  float: left;
+  margin-right: 0.25rem;
+  margin-top: 0.625rem;
+  width: 12.1875rem;
+  border: 1px solid #abb6c5;
+}
+select,
+#captchaImageWrapper {
+  border-top-right-radius: 0.1875rem;
+  border-bottom-right-radius: 0.1875rem;
+  border-bottom-left-radius: 0.1875rem;
+  border-top-left-radius: 0.1875rem;
+  background-clip: padding-box;
+}
+#captchaImage {
+  width: 11.875rem;
+  margin-left: 0.125rem;
+}
+img {
+  border: 0;
+}
+div#audioCaptchaContainer a {
+  width: 1.3125rem;
+  height: 1.25rem;
+  background: transparent
+    url(https://img.icons8.com/material-sharp/24/undefined/medium-volume.png)
+    no-repeat -1px -41px;
+  float: right;
+}
+#audioCaptchaLink {
+  margin-top: 0.625rem;
+}
+#generateAnotherCaptcha {
+  color: #666666;
+  margin-top: 0.625em;
+  font-size: 0.8em;
+}
+#captchaReload {
+  color: #0061a6;
+  cursor: pointer;
+}
+label.std {
+  font-weight: normal;
+  width: 12.5rem;
+}
+label.std span {
+  display: block;
+  line-height: normal;
+  margin-left: 1em;
+  width: 12.5rem;
+  font-size: 0.75rem;
+}
+.bravo {
+  display: flex;
+}
+.charlie {
+  margin-top: 1.25rem;
+  margin-bottom: 0 !important;
+}
+.csi {
+  color: #fff;
+  background-color: rgba(40, 115, 197, 0.8);
+  border-radius: 0.1875rem;
+  transition: background-color 0.2s, color 0.2s;
+  background-image: none;
+  border-style: none;
+  border-color: #0061a6;
+  min-height: 1.875rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  font-size: 0.8rem;
+  line-height: 1.22222;
+  margin-top: 0.5rem;
+  padding-left: 0.625rem;
+  width: 8.125rem;
+}
+.formFieldsWrapper > div.buttonRow {
+  margin-top: 0.3125em;
+  margin-bottom: 0;
+  width: 13.75rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.panel .formFieldsWrapper > div {
+  position: relative;
+}
+.cancelLink {
+  padding-right: 2vw;
+}
+.error {
+  width: 220px !important;
+  display: block;
+  font-size: 12px;
+  color: red;
+}
+.custom {
+  margin-top: 2px;
+}
+.formFieldsWrapper label {
+  margin-bottom: 0.5rem;
+}
+#cancelButton {
+  float: right;
+  margin: auto;
+  padding-top: 0.5rem;
+}
+/*
+
+MEDIA QUERIES
+
+*/
+
+@media (max-width: 450px) {
+  .panel {
+    margin: 0 12vw;
+  }
+  #titleSelect select,
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 13.75rem;
+    height: 2rem;
+    font-size: 0.875rem;
+  }
+  #generateAnotherCaptcha,
+  label,
+  .page-header-two,
+  #nav {
+    width: 60vw;
+  }
+  .cancelLink {
+    color: #fff;
+    background-color: #4d4d4f;
+    border-radius: 0.1875rem;
+    transition: background-color 0.2s, color 0.2s;
+    background-image: none;
+    border-style: none;
+    border-color: #4d4d4f;
+    min-height: 1.875rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 0.8rem;
+    line-height: 2;
+    margin: 1rem 0 !important;
+    width: 13.75rem;
+    text-align: center;
+  }
+  .cancelLink:hover {
+    color: #fff !important;
+  }
+  .formFieldsWrapper > div.buttonRow {
+    width: 60vw;
+  }
+  .csi {
+    width: 13.75rem !important;
+    height: 2.8125rem;
+  }
+  label {
+    margin-bottom: 1rem;
+    font-weight: 800;
+  }
+  .formFieldsWrapper > div.buttonRow {
+    flex-direction: column;
+  }
+}
